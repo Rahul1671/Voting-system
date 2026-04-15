@@ -1,0 +1,36 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_20-a369c6701597ee43ca4bbc2637c74551d6b50573",
+  "solcVersion": "0.8.20",
+  "solcLongVersion": "0.8.20+commit.a1b79de6",
+  "compilerType": "solc",
+  "userSourceNameMap": {
+    "contracts/Voting.sol": "project/contracts/Voting.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "london",
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/Voting.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.19;\n\ncontract Voting {\n    address public admin;\n\n    struct Candidate {\n        uint256 id;\n        string name;\n        uint256 voteCount;\n    }\n\n    Candidate[] public candidates;\n\n    mapping(address => bool) public isVerified;\n    mapping(address => bool) public hasVoted;\n\n    event VoterVerified(address indexed voter);\n    event VoteCasted(address indexed voter, uint256 candidateId);\n    event CandidateAdded(uint256 candidateId, string name);\n\n    modifier onlyAdmin() {\n        require(msg.sender == admin, \"Only admin can call this function\");\n        _;\n    }\n\n    modifier onlyVerified() {\n        require(isVerified[msg.sender], \"Voter is not verified\");\n        _;\n    }\n\n    constructor() {\n        admin = msg.sender;\n    }\n\n    function addCandidate(string memory _name) public onlyAdmin {\n        uint256 candidateId = candidates.length;\n        candidates.push(Candidate(candidateId, _name, 0));\n        emit CandidateAdded(candidateId, _name);\n    }\n\n    function verifyVoter(address _voter) public onlyAdmin {\n        require(!isVerified[_voter], \"Voter is already verified\");\n        isVerified[_voter] = true;\n        emit VoterVerified(_voter);\n    }\n\n    function vote(uint256 _candidateId) public {\n        require(!hasVoted[msg.sender], \"You have already voted\");\n        require(_candidateId < candidates.length, \"Invalid candidate ID\");\n\n        hasVoted[msg.sender] = true;\n        candidates[_candidateId].voteCount += 1;\n\n        emit VoteCasted(msg.sender, _candidateId);\n    }\n\n    function getAllCandidates() public view returns (Candidate[] memory) {\n        return candidates;\n    }\n}\n"
+      }
+    }
+  }
+}

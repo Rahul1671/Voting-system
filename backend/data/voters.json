@@ -1,0 +1,145 @@
+[
+  {
+    "voterId": "V001",
+    "name": "Sanjay Rathour",
+    "email": "sanjaykumarup64@gmail.com",
+    "phone": "9548916839",
+    "walletAddress": "0xe015adb7882b3a1661b0f4404aa6e9a6eecd95bb",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-14T11:58:48.120Z",
+    "verifiedAt": "2026-04-15T04:23:10.650Z"
+  },
+  {
+    "voterId": "V002",
+    "name": "Mukesh",
+    "email": "xyz@gmail.com",
+    "phone": "9548916839",
+    "walletAddress": "0xb8a67851fa9efdef29359077b6a34816647c8a0b",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T04:41:08.393Z",
+    "verifiedAt": "2026-04-15T04:41:20.196Z"
+  },
+  {
+    "voterId": "V003",
+    "name": "Rajesh",
+    "email": "nkhero@gmail.com",
+    "phone": "9927789899",
+    "walletAddress": "0xb8a67851fa9efdef29359077b6a34816647c8a0b",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T05:16:40.758Z",
+    "verifiedAt": "2026-04-15T05:16:55.586Z"
+  },
+  {
+    "voterId": "V004",
+    "name": "Arun Kumar",
+    "email": "arun@gmail.com",
+    "phone": "9548916839",
+    "walletAddress": "0xe015adb7882b3a1661b0f4404aa6e9a6eecd95bb",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T05:30:49.067Z",
+    "verifiedAt": "2026-04-15T05:31:40.559Z"
+  },
+  {
+    "voterId": "V005",
+    "name": "Preetam",
+    "email": "preet@gmail.com",
+    "phone": "88879 98226",
+    "walletAddress": "0xb8a67851fa9efdef29359077b6a34816647c8a0b",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T05:46:15.973Z",
+    "verifiedAt": "2026-04-15T05:46:32.895Z"
+  },
+  {
+    "voterId": "V006",
+    "name": "Suresh",
+    "email": "suresh123@gmail.com",
+    "phone": "7500862530",
+    "walletAddress": "0xb8a67851fa9efdef29359077b6a34816647c8a0b",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T06:06:05.290Z",
+    "verifiedAt": "2026-04-15T06:13:28.161Z"
+  },
+  {
+    "voterId": "V007",
+    "name": "Raju",
+    "email": "Raju@gmail.com",
+    "phone": "8394085188",
+    "walletAddress": "0xb8a67851fa9efdef29359077b6a34816647c8a0b",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T06:18:32.422Z",
+    "verifiedAt": "2026-04-15T06:19:12.007Z"
+  },
+  {
+    "voterId": "V008",
+    "name": "Naaz",
+    "email": "Naaz@gmail.com",
+    "phone": "7500862530",
+    "walletAddress": "0xb8a67851fa9efdef29359077b6a34816647c8a0b",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T06:21:59.509Z",
+    "verifiedAt": "2026-04-15T06:22:10.730Z"
+  },
+  {
+    "voterId": "V009",
+    "name": "Abhishek",
+    "email": "Abhishek@gmail.com",
+    "phone": "95654 06376",
+    "walletAddress": "0xeb88b020cbc8d24c0b33bcd99b617daa4035aef5",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T06:40:09.972Z",
+    "verifiedAt": "2026-04-15T06:40:47.502Z"
+  },
+  {
+    "voterId": "V010",
+    "name": "Santosh",
+    "email": "santosh@gmail.com",
+    "phone": "9548916839",
+    "walletAddress": "0xeb88b020cbc8d24c0b33bcd99b617daa4035aef5",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T07:15:15.299Z",
+    "verifiedAt": "2026-04-15T07:15:28.389Z"
+  },
+  {
+    "voterId": "V011",
+    "name": "Shubh",
+    "email": "Shubh@gmail.com",
+    "phone": "89576 51242",
+    "walletAddress": "0xeb88b020cbc8d24c0b33bcd99b617daa4035aef5",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T07:26:33.864Z",
+    "verifiedAt": "2026-04-15T07:46:29.125Z"
+  },
+  {
+    "voterId": "V012",
+    "name": "Ritesh",
+    "email": "sanjaykumarup64@gmail.com",
+    "phone": "9927789899",
+    "walletAddress": "0xeb88b020cbc8d24c0b33bcd99b617daa4035aef5",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T07:47:56.482Z",
+    "verifiedAt": "2026-04-15T07:48:08.487Z"
+  },
+  {
+    "voterId": "V013",
+    "name": "Shaan",
+    "email": "shaan@gmail.com",
+    "phone": "7500862530",
+    "walletAddress": "0xeb88b020cbc8d24c0b33bcd99b617daa4035aef5",
+    "verified": true,
+    "hasVoted": false,
+    "registeredAt": "2026-04-15T08:17:06.992Z",
+    "verifiedAt": "2026-04-15T08:17:36.472Z"
+  }
+]
